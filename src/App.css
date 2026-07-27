@@ -1,0 +1,157 @@
+/* ===============================
+   ShopZone Global Styles
+================================ */
+
+
+#root {
+
+  width: 100%;
+
+  min-height: 100vh;
+
+  background-color: #f8fafc;
+
+}
+
+
+
+
+/* Box sizing */
+
+* {
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+
+body {
+
+  font-family:
+
+  "Inter",
+  "Poppins",
+  Arial,
+  sans-serif;
+
+  background-color: #f8fafc;
+
+  color: #1e293b;
+
+}
+
+
+
+
+
+/* Remove link default style */
+
+a {
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
+
+
+
+
+
+/* Buttons */
+
+button {
+
+  cursor: pointer;
+
+  font-family: inherit;
+
+}
+
+
+
+
+
+/* Images */
+
+img {
+
+  max-width: 100%;
+
+  display: block;
+
+}
+
+
+
+
+
+/* Smooth animations */
+
+* {
+
+  transition-property:
+  color,
+  background-color,
+  border-color,
+  transform,
+  box-shadow;
+
+}
+
+
+
+
+
+/* Custom scrollbar */
+
+::-webkit-scrollbar {
+
+  width: 10px;
+
+}
+
+
+
+::-webkit-scrollbar-track {
+
+  background: #e2e8f0;
+
+}
+
+
+
+::-webkit-scrollbar-thumb {
+
+  background: #2563eb;
+
+  border-radius: 20px;
+
+}
+
+
+
+
+
+::-webkit-scrollbar-thumb:hover {
+
+  background: #1d4ed8;
+
+}

@@ -1,0 +1,149 @@
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+
+/* Tailwind */
+
+@import "tailwindcss";
+
+
+
+
+
+/* ==========================
+   Global Reset
+========================== */
+
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+
+body {
+
+  font-family: "Poppins", sans-serif;
+
+  background: #f8fafc;
+
+  color: #0f172a;
+
+  overflow-x: hidden;
+
+  min-height: 100vh;
+
+}
+
+
+
+
+
+/* Links */
+
+a {
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
+
+
+
+
+
+/* Images */
+
+img {
+
+  display: block;
+
+  max-width: 100%;
+
+}
+
+
+
+
+
+/* Buttons */
+
+button {
+
+  cursor: pointer;
+
+  font-family: inherit;
+
+}
+
+
+
+
+
+/* Text Selection */
+
+::selection {
+
+  background: #2563eb;
+
+  color: white;
+
+}
+
+
+
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+
+  width: 10px;
+
+}
+
+
+
+::-webkit-scrollbar-track {
+
+  background: #e2e8f0;
+
+}
+
+
+
+::-webkit-scrollbar-thumb {
+
+  background: #2563eb;
+
+  border-radius: 20px;
+
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+
+  background: #1d4ed8;
+
+}
